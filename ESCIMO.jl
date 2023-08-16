@@ -1,4 +1,4 @@
-module ESCIMO_ClimateModel
+module ESCIMO
 
 import CSV
 import DataFrames
@@ -9,7 +9,7 @@ import DifferentialEquations
 using Revise
 using MetaModelica
 
-include("ESCIMO.jl")
+include("EscimoModel.jl")
 include("util.jl")
 
 end

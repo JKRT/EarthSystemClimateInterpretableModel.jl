@@ -21,7 +21,7 @@ end
   Runs the escimo file using precalculated initial conditions.
   See comments below.
 """
-function runESCIMOExternalInit(tspan = (1850., 2500.), solver = DifferentialEquations.Rodas5(autodiff=false))
+function simulate(;tspan = (1850., 2500.), solver = DifferentialEquations.Rodas5(autodiff=false))
   println(tspan)
   @assert(first(tspan) == 1850., "Simulation should start at 1850.")
   println("Creating model...")
@@ -59,4 +59,5 @@ function runESCIMOExternalInit(tspan = (1850., 2500.), solver = DifferentialEqua
   println("sol.t: $(sol.t)")
   println("sol.retcode: $(sol.retcode)")
   generateCSV("ESCIMO", sol)
+  sol
 end
