@@ -1,4 +1,13 @@
 name = "EarthSystemClimateInterpretableModel"
 uuid = "3fa10ead-a9da-4ac4-a7e3-6b5112c1ecf1"
 authors = ["johti17 "]
-version = "0.1.0"
+version = "1.0.0"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
+Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
+OMRuntimeExternalC = "ada38df0-e20e-11ed-02f3-2b4b19c1ec8a"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
