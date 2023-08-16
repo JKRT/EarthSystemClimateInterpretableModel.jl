@@ -1,5 +1,5 @@
 # EarthSystemClimateInterpretableModel.jl
-The complete [Earth System Climate Interpretable Model (ESCIMO) model](https://esd.copernicus.org/articles/7/831/2016/) implemented in Julia.
+The complete [Earth System Climate Interpretable Model (ESCIMO) model](https://esd.copernicus.org/articles/7/831/2016/) implemented in Julia, and made available for Julia scripting.
 The model was presented in an article by: Jorgen Randers, Ulrich Golüke, Fred Wenstøp, and Søren Wenstøp in::
 *A user-friendly earth system model of low complexity: the ESCIMO system dynamics model of global warming towards 2100*
 
