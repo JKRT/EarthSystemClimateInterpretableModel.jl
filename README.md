@@ -12,6 +12,9 @@ Dependencies include the following Julia packages:
 - DifferentialEquations
 - OMRuntimeExternalC
 - Plots
+- CSV
+- DataFrames
+- Symbolics
 
 ### Note
 This package makes use of `OMRuntimeExternalC`, which is an external package

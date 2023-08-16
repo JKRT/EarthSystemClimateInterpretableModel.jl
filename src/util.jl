@@ -1,3 +1,5 @@
+using Setfield
+
 """
 Write the model to a file as a CSV.
 """
@@ -45,7 +47,7 @@ function simulate(;tspan = (1850., 2500.), solver = DifferentialEquations.Rodas5
     if name in keys(initialValDict2)
       valInAux = initialValDict2[name]
       println("New value for $name:" * string(valInAux))
-      @assign p.second = valInAux
+      @set! p.second = valInAux
       ivs[i] = p
     end
   end
